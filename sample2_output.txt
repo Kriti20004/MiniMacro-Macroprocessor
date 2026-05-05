@@ -1,0 +1,8 @@
+SET &result 5 + 10
+PRINT &result
+SET &result 20 + 30
+PRINT &result
+SET &result 4 * 5
+PRINT &result
+SET &result 10 * 10
+PRINT &result

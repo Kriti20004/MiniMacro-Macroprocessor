@@ -1,0 +1,8 @@
+MACRO GREET &name
+PRINT "Hello &name"
+PRINT "Welcome to MiniMacro!"
+MEND
+
+CALL GREET "John"
+CALL GREET "Alice"
+CALL GREET "Bob"

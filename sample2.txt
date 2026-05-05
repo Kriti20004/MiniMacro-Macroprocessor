@@ -1,0 +1,14 @@
+MACRO ADD &a &b
+SET &result &a + &b
+PRINT &result
+MEND
+
+MACRO MULTIPLY &a &b
+SET &result &a * &b
+PRINT &result
+MEND
+
+CALL ADD 5 10
+CALL ADD 20 30
+CALL MULTIPLY 4 5
+CALL MULTIPLY 10 10

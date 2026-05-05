@@ -1,0 +1,6 @@
+PRINT "Hello "John""
+PRINT "Welcome to MiniMacro!"
+PRINT "Hello "Alice""
+PRINT "Welcome to MiniMacro!"
+PRINT "Hello "Bob""
+PRINT "Welcome to MiniMacro!"

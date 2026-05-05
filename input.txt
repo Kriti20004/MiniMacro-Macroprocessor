@@ -1,0 +1,14 @@
+MACRO GREET &name
+PRINT "Hello &name"
+MEND
+MACRO GREET &name
+PRINT "Duplicate &name"
+MEND
+MACRO ADD &a &b
+SET &result &a + &b
+PRINT &result
+MEND
+CALL GREET "John"
+CALL GREET
+CALL ADD 5 10
+CALL UNKNOWN "test"

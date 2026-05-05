@@ -1,0 +1,3 @@
+PRINT "Hello "John""
+SET &result 5 + 10
+PRINT &result
